@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="1500"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="scaleX"
+        android:valueFrom="0.8"
+        android:valueTo="1.2"/>
+    <objectAnimator
+        android:duration="1500"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="scaleY"
+        android:valueFrom="0.8"
+        android:valueTo="1.2"/>
+</set>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <set android:ordering="sequentially">
+        <set android:ordering="together">
+            <objectAnimator
+                android:duration="750"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="scaleX"
+                android:valueFrom="1.0"
+                android:valueTo="0.8"/>
+
+
+            <objectAnimator
+                android:duration="750"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="scaleY"
+                android:valueFrom="1.0"
+                android:valueTo="0.8"/>
+        </set>
+        <set android:ordering="together">
+            <objectAnimator
+                android:duration="1500"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="scaleX"
+                android:valueFrom="0.8"
+                android:valueTo="1.15"/>
+            <objectAnimator
+                android:duration="1500"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="scaleY"
+                android:valueFrom="0.8"
+                android:valueTo="1.15"/>
+        </set>
+        <set android:ordering="together">
+            <objectAnimator
+                android:duration="750"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="scaleX"
+                android:valueFrom="1.15"
+                android:valueTo="1.0"/>
+            <objectAnimator
+                android:duration="750"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="scaleY"
+                android:valueFrom="1.15"
+                android:valueTo="1.0"/>
+        </set>
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="-30" />
+        <objectAnimator
+            android:duration="300"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="-30"
+            android:valueTo="30" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="30"
+            android:valueTo="0" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="-30" />
+        <objectAnimator
+            android:duration="300"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="-30"
+            android:valueTo="30" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="30"
+            android:valueTo="0" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="-30" />
+        <objectAnimator
+            android:duration="300"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="-30"
+            android:valueTo="30" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="30"
+            android:valueTo="0" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="-30" />
+        <objectAnimator
+            android:duration="300"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="-30"
+            android:valueTo="30" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="30"
+            android:valueTo="0" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="-30" />
+        <objectAnimator
+            android:duration="300"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="-30"
+            android:valueTo="30" />
+        <objectAnimator
+            android:duration="150"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:propertyName="rotation"
+            android:valueFrom="30"
+            android:valueTo="0" />
+
+    </set>
+
+</set>
